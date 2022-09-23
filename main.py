@@ -87,10 +87,10 @@ def read_root():
 def post_data(item: Item):
 
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
     print(type(item))
 
@@ -136,10 +136,10 @@ def post_data(item: Item):
 def post_dragon(item2: Item2):
 
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
     print(type(item2))
 
@@ -170,10 +170,10 @@ def post_dragon(item2: Item2):
 def post_hat(item4: Item4):
 
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
     print(type(item4))
 
@@ -200,10 +200,10 @@ def post_hat(item4: Item4):
 @app.post("/post_time", response_model=Time)
 def post_time(time: Time):
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
 
     mycursor = mydb.cursor()
@@ -228,10 +228,10 @@ def post_time(time: Time):
 @app.get("/get_data")
 def get_data():
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
 
     mycursor = mydb.cursor()
@@ -261,10 +261,10 @@ def get_data():
 @app.get("/get_sorter")
 def get_data(id : str):
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
 
     mycursor = mydb.cursor()
@@ -313,10 +313,10 @@ def get_data(id : str):
 @app.get("/get_dragon")
 def get_data(id : str):
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
 
     mycursor = mydb.cursor()
@@ -353,10 +353,10 @@ def get_data(id : str):
 @app.get("/get_sedan")
 def get_data(id : str):
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
 
     mycursor = mydb.cursor()
@@ -392,10 +392,10 @@ def get_data(id : str):
 @app.get("/get_hat")
 def get_data(id : str):
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="stroke_db"
+        host="sql8.freesqldatabase.com",
+        user="sql8521469",
+        password="fcge8DjTzk",
+        database="sql8521469"
     )
 
     mycursor = mydb.cursor()
